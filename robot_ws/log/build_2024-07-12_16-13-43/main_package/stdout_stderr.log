@@ -1,0 +1,20 @@
+[ 75%] Built target controller_node
+[100%] Built target robot_controls_node
+-- Install configuration: ""
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/controller_node
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/robot_controls_node
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/package_run_dependencies/main_package
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/parent_prefix_path/main_package
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.sh
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.dsv
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.bash
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.sh
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.zsh
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.dsv
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.dsv
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/packages/main_package
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig.cmake
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig-version.cmake
+-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.xml

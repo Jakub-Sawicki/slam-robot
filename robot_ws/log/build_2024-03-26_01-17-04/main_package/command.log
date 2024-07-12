@@ -1,6 +1,0 @@
-Invoking command in '/home/kuba/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuba/slam-robot/robot_ws/main_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuba/slam-robot/robot_ws/install/main_package
-Invoked command in '/home/kuba/slam-robot/robot_ws/build/main_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kuba/slam-robot/robot_ws/main_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kuba/slam-robot/robot_ws/install/main_package
-Invoking command in '/home/kuba/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuba/slam-robot/robot_ws/build/main_package -- -j8 -l8
-Invoked command in '/home/kuba/slam-robot/robot_ws/build/main_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kuba/slam-robot/robot_ws/build/main_package -- -j8 -l8
-Invoking command in '/home/kuba/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuba/slam-robot/robot_ws/build/main_package
-Invoked command in '/home/kuba/slam-robot/robot_ws/build/main_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kuba/slam-robot/robot_ws/build/main_package

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001058] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.001504] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.019828] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'cmake'}
+[0.021736] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'build'}
+[0.023428] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', '--', '-j8', '-l8'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2469', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2303,unix/kuba-laptop:/tmp/.ICE-unix/2303', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/700c630d_ddd6_46af_84ab_21325708be49', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099606] (-) TimerEvent: {}
+[0.179446] (main_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.199772] (-) TimerEvent: {}
+[0.301057] (-) TimerEvent: {}
+[0.401549] (-) TimerEvent: {}
+[0.502023] (-) TimerEvent: {}
+[0.602494] (-) TimerEvent: {}
+[0.702961] (-) TimerEvent: {}
+[0.803543] (-) TimerEvent: {}
+[0.904267] (-) TimerEvent: {}
+[1.004820] (-) TimerEvent: {}
+[1.105286] (-) TimerEvent: {}
+[1.205807] (-) TimerEvent: {}
+[1.306336] (-) TimerEvent: {}
+[1.406806] (-) TimerEvent: {}
+[1.507262] (-) TimerEvent: {}
+[1.607742] (-) TimerEvent: {}
+[1.708621] (-) TimerEvent: {}
+[1.809128] (-) TimerEvent: {}
+[1.909655] (-) TimerEvent: {}
+[2.010289] (-) TimerEvent: {}
+[2.110859] (-) TimerEvent: {}
+[2.211363] (-) TimerEvent: {}
+[2.311848] (-) TimerEvent: {}
+[2.412308] (-) TimerEvent: {}
+[2.512723] (-) TimerEvent: {}
+[2.613173] (-) TimerEvent: {}
+[2.713735] (-) TimerEvent: {}
+[2.814262] (-) TimerEvent: {}
+[2.914900] (-) TimerEvent: {}
+[3.015380] (-) TimerEvent: {}
+[3.115911] (-) TimerEvent: {}
+[3.216429] (-) TimerEvent: {}
+[3.317147] (-) TimerEvent: {}
+[3.417997] (-) TimerEvent: {}
+[3.519256] (-) TimerEvent: {}
+[3.619883] (-) TimerEvent: {}
+[3.720645] (-) TimerEvent: {}
+[3.821060] (-) TimerEvent: {}
+[3.921547] (-) TimerEvent: {}
+[4.022043] (-) TimerEvent: {}
+[4.122588] (-) TimerEvent: {}
+[4.223143] (-) TimerEvent: {}
+[4.323872] (-) TimerEvent: {}
+[4.425567] (-) TimerEvent: {}
+[4.526126] (-) TimerEvent: {}
+[4.626660] (-) TimerEvent: {}
+[4.727195] (-) TimerEvent: {}
+[4.827681] (-) TimerEvent: {}
+[4.928173] (-) TimerEvent: {}
+[5.028664] (-) TimerEvent: {}
+[5.129063] (-) TimerEvent: {}
+[5.229590] (-) TimerEvent: {}
+[5.330107] (-) TimerEvent: {}
+[5.430612] (-) TimerEvent: {}
+[5.531063] (-) TimerEvent: {}
+[5.631596] (-) TimerEvent: {}
+[5.732449] (-) TimerEvent: {}
+[5.833176] (-) TimerEvent: {}
+[5.935348] (-) TimerEvent: {}
+[6.035884] (-) TimerEvent: {}
+[6.136444] (-) TimerEvent: {}
+[6.237001] (-) TimerEvent: {}
+[6.337476] (-) TimerEvent: {}
+[6.423254] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.424198] (main_package) StderrLine: {'line': b'   24 |     rclcpp::Subscription<sensor_msgs::msg::\x1b[01;31m\x1b[KLaserScan\x1b[m\x1b[K:>::SharedPtr subscription_;\n'}
+[6.424476] (main_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.424684] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[6.424874] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[6.425120] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[6.425347] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K:>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.425558] (main_package) StderrLine: {'line': b'   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan\x1b[01;31m\x1b[K:>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[6.425758] (main_package) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.437629] (-) TimerEvent: {}
+[6.467857] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KControllerNode::\x1b[01;32m\x1b[KControllerNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.468477] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.468866] (main_package) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[6.469409] (main_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.469766] (main_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.537783] (-) TimerEvent: {}
+[6.638298] (-) TimerEvent: {}
+[6.738806] (-) TimerEvent: {}
+[6.839296] (-) TimerEvent: {}
+[6.939740] (-) TimerEvent: {}
+[7.040176] (-) TimerEvent: {}
+[7.140597] (-) TimerEvent: {}
+[7.241082] (-) TimerEvent: {}
+[7.341515] (-) TimerEvent: {}
+[7.441962] (-) TimerEvent: {}
+[7.542442] (-) TimerEvent: {}
+[7.642981] (-) TimerEvent: {}
+[7.743466] (-) TimerEvent: {}
+[7.843959] (-) TimerEvent: {}
+[7.944374] (-) TimerEvent: {}
+[8.044873] (-) TimerEvent: {}
+[8.145364] (-) TimerEvent: {}
+[8.245817] (-) TimerEvent: {}
+[8.346332] (-) TimerEvent: {}
+[8.447036] (-) TimerEvent: {}
+[8.547839] (-) TimerEvent: {}
+[8.648371] (-) TimerEvent: {}
+[8.748770] (-) TimerEvent: {}
+[8.849222] (-) TimerEvent: {}
+[8.949672] (-) TimerEvent: {}
+[9.050171] (-) TimerEvent: {}
+[9.150702] (-) TimerEvent: {}
+[9.251185] (-) TimerEvent: {}
+[9.351666] (-) TimerEvent: {}
+[9.452148] (-) TimerEvent: {}
+[9.552677] (-) TimerEvent: {}
+[9.653201] (-) TimerEvent: {}
+[9.753696] (-) TimerEvent: {}
+[9.854202] (-) TimerEvent: {}
+[9.954800] (-) TimerEvent: {}
+[10.055338] (-) TimerEvent: {}
+[10.155890] (-) TimerEvent: {}
+[10.256369] (-) TimerEvent: {}
+[10.357389] (-) TimerEvent: {}
+[10.457995] (-) TimerEvent: {}
+[10.558590] (-) TimerEvent: {}
+[10.659189] (-) TimerEvent: {}
+[10.759701] (-) TimerEvent: {}
+[10.860261] (-) TimerEvent: {}
+[10.960726] (-) TimerEvent: {}
+[11.061217] (-) TimerEvent: {}
+[11.161677] (-) TimerEvent: {}
+[11.262162] (-) TimerEvent: {}
+[11.362639] (-) TimerEvent: {}
+[11.463157] (-) TimerEvent: {}
+[11.564005] (-) TimerEvent: {}
+[11.664844] (-) TimerEvent: {}
+[11.765855] (-) TimerEvent: {}
+[11.866507] (-) TimerEvent: {}
+[11.967276] (-) TimerEvent: {}
+[12.067917] (-) TimerEvent: {}
+[12.168532] (-) TimerEvent: {}
+[12.269159] (-) TimerEvent: {}
+[12.309754] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1\n'}
+[12.310350] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller_node.dir/all] Error 2\n'}
+[12.310626] (main_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.315371] (main_package) CommandEnded: {'returncode': 2}
+[12.369389] (-) TimerEvent: {}
+[12.393639] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 2}
+[12.404604] (-) EventReactorShutdown: {}

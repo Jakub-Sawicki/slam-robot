@@ -1,0 +1,26 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:32:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | int main([01;35m[Kint argc[m[K, char **argv) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:32:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | int main(int argc, [01;35m[Kchar **argv[m[K) {
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable main_node[0m
+[100%] Built target main_node
+-- Install configuration: ""
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/package_run_dependencies/main_package
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/parent_prefix_path/main_package
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.sh
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.dsv
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.sh
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.dsv
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.bash
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.sh
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.zsh
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.dsv
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.dsv
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/packages/main_package
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig.cmake
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig-version.cmake
+-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.xml

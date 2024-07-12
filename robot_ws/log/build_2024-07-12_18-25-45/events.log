@@ -1,0 +1,338 @@
+[0.000000] (-) TimerEvent: {}
+[0.000805] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.001414] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.015693] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'cmake'}
+[0.016796] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'build'}
+[0.018188] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', '--', '-j8', '-l8'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2257', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2214,unix/kuba-laptop:/tmp/.ICE-unix/2214', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c2c6fe6e_cfdc_4e71_90fb_a1b58748ef6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.410', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.067463] (main_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099737] (-) TimerEvent: {}
+[0.200189] (-) TimerEvent: {}
+[0.300664] (-) TimerEvent: {}
+[0.401025] (-) TimerEvent: {}
+[0.501431] (-) TimerEvent: {}
+[0.503110] (main_package) StdoutLine: {'line': b'-- Found rclcpp: 28.1.3 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.556512] (main_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.574223] (main_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.596293] (main_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601625] (-) TimerEvent: {}
+[0.622553] (main_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701860] (-) TimerEvent: {}
+[0.744153] (main_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.746596] (main_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801988] (-) TimerEvent: {}
+[0.872413] (main_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902120] (-) TimerEvent: {}
+[0.999579] (main_package) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.002234] (-) TimerEvent: {}
+[1.025872] (main_package) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.102524] (-) TimerEvent: {}
+[1.203031] (-) TimerEvent: {}
+[1.289468] (main_package) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.303160] (-) TimerEvent: {}
+[1.329802] (main_package) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.333713] (main_package) StdoutLine: {'line': b'-- Build files have been written to: /home/kuba/Documents/slam-robot/robot_ws/build/main_package\n'}
+[1.403322] (-) TimerEvent: {}
+[1.424767] (main_package) StdoutLine: {'line': b'[ 25%] Built target sim_controls_driver_node\n'}
+[1.426667] (main_package) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o\x1b[0m\n'}
+[1.430578] (main_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sim_motor_driver.dir/src/sim_motor_driver.cpp.o\x1b[0m\n'}
+[1.441753] (main_package) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o\x1b[0m\n'}
+[1.503473] (-) TimerEvent: {}
+[1.603967] (-) TimerEvent: {}
+[1.704487] (-) TimerEvent: {}
+[1.805048] (-) TimerEvent: {}
+[1.899706] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_lidar_driver.cpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksensor_msgs/msg/laserscan.hpp: No such file or directory\n'}
+[1.900215] (main_package) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"sensor_msgs/msg/laserscan.hpp"\x1b[m\x1b[K\n'}
+[1.900454] (main_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.900679] (main_package) StderrLine: {'line': b'compilation terminated.\n'}
+[1.905142] (-) TimerEvent: {}
+[1.911750] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sim_lidar_driver_node.dir/build.make:76: CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o] Error 1\n'}
+[1.912326] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/sim_lidar_driver_node.dir/all] Error 2\n'}
+[1.912516] (main_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.005377] (-) TimerEvent: {}
+[2.105835] (-) TimerEvent: {}
+[2.206305] (-) TimerEvent: {}
+[2.306714] (-) TimerEvent: {}
+[2.407102] (-) TimerEvent: {}
+[2.507516] (-) TimerEvent: {}
+[2.608023] (-) TimerEvent: {}
+[2.708451] (-) TimerEvent: {}
+[2.808970] (-) TimerEvent: {}
+[2.909374] (-) TimerEvent: {}
+[3.009755] (-) TimerEvent: {}
+[3.110136] (-) TimerEvent: {}
+[3.210544] (-) TimerEvent: {}
+[3.310996] (-) TimerEvent: {}
+[3.411415] (-) TimerEvent: {}
+[3.511832] (-) TimerEvent: {}
+[3.612262] (-) TimerEvent: {}
+[3.712692] (-) TimerEvent: {}
+[3.813178] (-) TimerEvent: {}
+[3.913728] (-) TimerEvent: {}
+[4.014231] (-) TimerEvent: {}
+[4.114728] (-) TimerEvent: {}
+[4.215140] (-) TimerEvent: {}
+[4.315561] (-) TimerEvent: {}
+[4.416076] (-) TimerEvent: {}
+[4.516577] (-) TimerEvent: {}
+[4.617150] (-) TimerEvent: {}
+[4.717718] (-) TimerEvent: {}
+[4.818133] (-) TimerEvent: {}
+[4.918568] (-) TimerEvent: {}
+[5.019059] (-) TimerEvent: {}
+[5.119573] (-) TimerEvent: {}
+[5.220081] (-) TimerEvent: {}
+[5.320578] (-) TimerEvent: {}
+[5.421115] (-) TimerEvent: {}
+[5.521626] (-) TimerEvent: {}
+[5.622086] (-) TimerEvent: {}
+[5.722583] (-) TimerEvent: {}
+[5.823001] (-) TimerEvent: {}
+[5.923525] (-) TimerEvent: {}
+[6.023974] (-) TimerEvent: {}
+[6.124483] (-) TimerEvent: {}
+[6.225046] (-) TimerEvent: {}
+[6.231906] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.232912] (main_package) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr subscription_;\n'}
+[6.233229] (main_package) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.233487] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.233753] (main_package) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[6.234007] (main_package) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.234250] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[6.234494] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[6.234774] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[6.235026] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.235273] (main_package) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[6.235503] (main_package) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.235754] (main_package) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.237146] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.237418] (main_package) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[6.237680] (main_package) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.237939] (main_package) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.238396] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.238673] (main_package) StderrLine: {'line': b'   23 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[6.238944] (main_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.239186] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.239450] (main_package) StderrLine: {'line': b'   23 |     rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[6.239727] (main_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.239978] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.240223] (main_package) StderrLine: {'line': b'   23 |     rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[6.240467] (main_package) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.240727] (main_package) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.240979] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint SimMotorDriver::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.241229] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint SimMotorDriver::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.241489] (main_package) StderrLine: {'line': b'   22 |     rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[6.241748] (main_package) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.242787] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.243050] (main_package) StderrLine: {'line': b'   23 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[6.243276] (main_package) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.243504] (main_package) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[6.261890] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimMotorDriver::\x1b[01;32m\x1b[KSimMotorDriver\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.262338] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:15:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.262605] (main_package) StderrLine: {'line': b'   15 |       \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Int32>(\n'}
+[6.262875] (main_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.263129] (main_package) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.315084] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.315545] (main_package) StderrLine: {'line': b'   24 |     rclcpp::Subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan>::SharedPtr lidar_subscription_;\n'}
+[6.315849] (main_package) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.316084] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.316327] (main_package) StderrLine: {'line': b'   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr lidar_subscription_;\n'}
+[6.316556] (main_package) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.316801] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[6.317033] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[6.317255] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[6.317476] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.317726] (main_package) StderrLine: {'line': b'   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K lidar_subscription_;\n'}
+[6.317959] (main_package) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.318183] (main_package) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.322101] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klidar_subscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.322381] (main_package) StderrLine: {'line': b'   24 | clcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr \x1b[01;31m\x1b[Klidar_subscription_\x1b[m\x1b[K;\n'}
+[6.322608] (main_package) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.322865] (main_package) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.325144] (-) TimerEvent: {}
+[6.354781] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:18:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.355249] (main_package) StderrLine: {'line': b'   18 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);\n'}
+[6.355504] (main_package) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.355779] (main_package) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[6.364414] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.365229] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[6.365523] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[6.365795] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:5\x1b[m\x1b[K:\n'}
+[6.366056] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimMotorDriver::\x1b[01;32m\x1b[KcallbackFunction\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.366313] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:40:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.366561] (main_package) StderrLine: {'line': b'   40 |         RCLCPP_INFO(this->get_logger(), "Received: \'%s\'", \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->data.c_str());\n'}
+[6.366861] (main_package) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.367106] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:40:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[6.367382] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156\x1b[m\x1b[K,\n'}
+[6.367610] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[6.367852] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[6.368077] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.368318] (main_package) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.368540] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.368779] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23\x1b[m\x1b[K,\n'}
+[6.369009] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267\x1b[m\x1b[K:\n'}
+[6.369231] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.369457] (main_package) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.369685] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.369920] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.370147] (main_package) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.370368] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.370590] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26\x1b[m\x1b[K,\n'}
+[6.370848] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[6.371086] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[6.371312] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[6.371536] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[6.371776] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[6.372008] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.372252] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.372485] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[6.372739] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[6.372992] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.373235] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.373473] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[6.373720] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.373987] (main_package) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.374225] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.374468] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24\x1b[m\x1b[K,\n'}
+[6.374721] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[6.374970] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:6\x1b[m\x1b[K:\n'}
+[6.375207] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.375447] (main_package) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.375696] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.375947] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp:7\x1b[m\x1b[K,\n'}
+[6.376185] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:7\x1b[m\x1b[K:\n'}
+[6.376420] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.376668] (main_package) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[6.376907] (main_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.377130] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:44:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.377389] (main_package) StderrLine: {'line': b'   44 |         switch (motor_commands.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K) {\n'}
+[6.377616] (main_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.377857] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.378086] (main_package) StderrLine: {'line': b'   59 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[6.378310] (main_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.380789] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:61:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.381057] (main_package) StderrLine: {'line': b'   61 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(output_msg);\n'}
+[6.381284] (main_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.381510] (main_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[6.415473] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KControllerNode::\x1b[01;32m\x1b[KControllerNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.415946] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klidar_subscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcontrol_subscription_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.416205] (main_package) StderrLine: {'line': b'   14 |         \x1b[01;31m\x1b[Klidar_subscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[6.416464] (main_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.416704] (main_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kcontrol_subscription_\x1b[m\x1b[K\n'}
+[6.425357] (-) TimerEvent: {}
+[6.430861] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.431323] (main_package) StderrLine: {'line': b'   14 |         lidar_subscription_ = this->create_subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::LaserScan>(\n'}
+[6.431570] (main_package) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.431849] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[6.432083] (main_package) StderrLine: {'line': b'   14 |         lidar_subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<sensor_msgs::msg::LaserScan>\x1b[m\x1b[K(\n'}
+[6.432307] (main_package) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.441488] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KControllerNode::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (ControllerNode::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >), ControllerNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.441932] (main_package) StderrLine: {'line': b'   14 | subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::LaserScan>(\x1b[m\x1b[K\n'}
+[6.442216] (main_package) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[6.442444] (main_package) StderrLine: {'line': b'\n'}
+[6.442683] (main_package) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[Kbstacle_distance", 10, std::bind(&ControllerNode::lidarCallback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[6.442925] (main_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.443147] (main_package) StderrLine: {'line': b'\n'}
+[6.443366] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.443591] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.443838] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[6.444065] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:4\x1b[m\x1b[K:\n'}
+[6.444288] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.444534] (main_package) StderrLine: {'line': b'  221 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[6.444772] (main_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.444999] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.445227] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.445455] (main_package) StderrLine: {'line': b'   14 | subscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::LaserScan>(\x1b[m\x1b[K\n'}
+[6.445689] (main_package) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[6.445939] (main_package) StderrLine: {'line': b'\n'}
+[6.446167] (main_package) StderrLine: {'line': b'   15 | \x1b[01;31m\x1b[Kbstacle_distance", 10, std::bind(&ControllerNode::lidarCallback, this, std::placeholders::_1))\x1b[m\x1b[K;\n'}
+[6.446393] (main_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.446620] (main_package) StderrLine: {'line': b'\n'}
+[6.469468] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::\x1b[01;32m\x1b[KlidarCallback\x1b[m\x1b[K(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.469936] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:32:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kobstiacle_distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kobstacle_distance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.470192] (main_package) StderrLine: {'line': b'   32 |       if (\x1b[01;31m\x1b[Kobstiacle_distance\x1b[m\x1b[K.data <= min_obstacle_distance) {\n'}
+[6.470421] (main_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.470654] (main_package) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kobstacle_distance\x1b[m\x1b[K\n'}
+[6.470920] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:9\x1b[m\x1b[K:\n'}
+[6.471158] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/config.h:6:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[6.471404] (main_package) StderrLine: {'line': b'    6 | #define TURN_RIGHT \x1b[01;31m\x1b[K2\x1b[m\x1b[K\n'}
+[6.471634] (main_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.471884] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:34:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KTURN_RIGHT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.472122] (main_package) StderrLine: {'line': b'   34 |         std_msgs::msg::Int32 motor_command = \x1b[01;36m\x1b[KTURN_RIGHT\x1b[m\x1b[K;\n'}
+[6.472353] (main_package) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.472755] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:31:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kobstacle_distance\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.473023] (main_package) StderrLine: {'line': b'   31 |  void lidarCallback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Float32::SharedPtr obstacle_distance\x1b[m\x1b[K) {\n'}
+[6.473248] (main_package) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.473485] (main_package) StderrLine: {'line': b'\n'}
+[6.474508] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::\x1b[01;32m\x1b[KcontrolCallback\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.474781] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:45:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.475020] (main_package) StderrLine: {'line': b'   45 |         std_msgs::msg::Int32 motor_command = control_command.\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K;\n'}
+[6.475252] (main_package) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.488219] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kavoiding\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.488642] (main_package) StderrLine: {'line': b'   47 |         if (\x1b[01;31m\x1b[Kavoiding\x1b[m\x1b[K obstacle == false) {\n'}
+[6.488926] (main_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.489166] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kobstacle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.489415] (main_package) StderrLine: {'line': b'   47 |         if (avoiding \x1b[01;31m\x1b[Kobstacle\x1b[m\x1b[K == false) {\n'}
+[6.489660] (main_package) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.489905] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.490141] (main_package) StderrLine: {'line': b'   47 |         if \x1b[01;36m\x1b[K(\x1b[m\x1b[Kavoiding obstacle == false) {\n'}
+[6.490372] (main_package) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.490742] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:49:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.491003] (main_package) StderrLine: {'line': b'   49 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[6.491228] (main_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.525580] (-) TimerEvent: {}
+[6.626156] (-) TimerEvent: {}
+[6.726638] (-) TimerEvent: {}
+[6.827202] (-) TimerEvent: {}
+[6.927709] (-) TimerEvent: {}
+[7.028332] (-) TimerEvent: {}
+[7.128830] (-) TimerEvent: {}
+[7.229416] (-) TimerEvent: {}
+[7.330015] (-) TimerEvent: {}
+[7.430496] (-) TimerEvent: {}
+[7.531075] (-) TimerEvent: {}
+[7.631539] (-) TimerEvent: {}
+[7.732022] (-) TimerEvent: {}
+[7.832431] (-) TimerEvent: {}
+[7.932877] (-) TimerEvent: {}
+[8.033328] (-) TimerEvent: {}
+[8.133754] (-) TimerEvent: {}
+[8.234253] (-) TimerEvent: {}
+[8.334764] (-) TimerEvent: {}
+[8.435206] (-) TimerEvent: {}
+[8.535705] (-) TimerEvent: {}
+[8.636203] (-) TimerEvent: {}
+[8.736722] (-) TimerEvent: {}
+[8.837219] (-) TimerEvent: {}
+[8.937712] (-) TimerEvent: {}
+[9.038196] (-) TimerEvent: {}
+[9.138607] (-) TimerEvent: {}
+[9.239038] (-) TimerEvent: {}
+[9.339448] (-) TimerEvent: {}
+[9.439839] (-) TimerEvent: {}
+[9.540252] (-) TimerEvent: {}
+[9.640829] (-) TimerEvent: {}
+[9.741345] (-) TimerEvent: {}
+[9.841858] (-) TimerEvent: {}
+[9.942373] (-) TimerEvent: {}
+[10.042824] (-) TimerEvent: {}
+[10.143295] (-) TimerEvent: {}
+[10.243832] (-) TimerEvent: {}
+[10.344306] (-) TimerEvent: {}
+[10.444861] (-) TimerEvent: {}
+[10.545390] (-) TimerEvent: {}
+[10.645907] (-) TimerEvent: {}
+[10.746379] (-) TimerEvent: {}
+[10.846850] (-) TimerEvent: {}
+[10.947409] (-) TimerEvent: {}
+[11.048814] (-) TimerEvent: {}
+[11.081860] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sim_motor_driver.dir/build.make:76: CMakeFiles/sim_motor_driver.dir/src/sim_motor_driver.cpp.o] Error 1\n'}
+[11.082335] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/sim_motor_driver.dir/all] Error 2\n'}
+[11.149035] (-) TimerEvent: {}
+[11.249454] (-) TimerEvent: {}
+[11.293888] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1\n'}
+[11.294456] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller_node.dir/all] Error 2\n'}
+[11.294722] (main_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.298245] (main_package) CommandEnded: {'returncode': 2}
+[11.349565] (-) TimerEvent: {}
+[11.376992] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 2}
+[11.387842] (-) EventReactorShutdown: {}

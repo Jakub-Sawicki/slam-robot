@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.000429] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.006292] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'cmake'}
+[0.006890] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'build'}
+[0.007403] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', '--', '-j8', '-l8'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2257', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2214,unix/kuba-laptop:/tmp/.ICE-unix/2214', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c2c6fe6e_cfdc_4e71_90fb_a1b58748ef6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.410', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056954] (main_package) StdoutLine: {'line': b'[ 25%] Built target sim_lidar_driver_node\n'}
+[0.057385] (main_package) StdoutLine: {'line': b'[ 50%] Built target sim_controls_driver_node\n'}
+[0.058646] (main_package) StdoutLine: {'line': b'[ 75%] Built target sim_motor_driver\n'}
+[0.066790] (main_package) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.099874] (-) TimerEvent: {}
+[0.200172] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400746] (-) TimerEvent: {}
+[0.501008] (-) TimerEvent: {}
+[0.601277] (-) TimerEvent: {}
+[0.701656] (-) TimerEvent: {}
+[0.801963] (-) TimerEvent: {}
+[0.902228] (-) TimerEvent: {}
+[1.002499] (-) TimerEvent: {}
+[1.102750] (-) TimerEvent: {}
+[1.203026] (-) TimerEvent: {}
+[1.303300] (-) TimerEvent: {}
+[1.403553] (-) TimerEvent: {}
+[1.503789] (-) TimerEvent: {}
+[1.604087] (-) TimerEvent: {}
+[1.704341] (-) TimerEvent: {}
+[1.804623] (-) TimerEvent: {}
+[1.904889] (-) TimerEvent: {}
+[2.005134] (-) TimerEvent: {}
+[2.105403] (-) TimerEvent: {}
+[2.205657] (-) TimerEvent: {}
+[2.305906] (-) TimerEvent: {}
+[2.406160] (-) TimerEvent: {}
+[2.506424] (-) TimerEvent: {}
+[2.606696] (-) TimerEvent: {}
+[2.706961] (-) TimerEvent: {}
+[2.807243] (-) TimerEvent: {}
+[2.907500] (-) TimerEvent: {}
+[3.007726] (-) TimerEvent: {}
+[3.107980] (-) TimerEvent: {}
+[3.208248] (-) TimerEvent: {}
+[3.308499] (-) TimerEvent: {}
+[3.408753] (-) TimerEvent: {}
+[3.509011] (-) TimerEvent: {}
+[3.609247] (-) TimerEvent: {}
+[3.709534] (-) TimerEvent: {}
+[3.809774] (-) TimerEvent: {}
+[3.910028] (-) TimerEvent: {}
+[4.010346] (-) TimerEvent: {}
+[4.110681] (-) TimerEvent: {}
+[4.210940] (-) TimerEvent: {}
+[4.311184] (-) TimerEvent: {}
+[4.411528] (-) TimerEvent: {}
+[4.511766] (-) TimerEvent: {}
+[4.612022] (-) TimerEvent: {}
+[4.712288] (-) TimerEvent: {}
+[4.812650] (-) TimerEvent: {}
+[4.912909] (-) TimerEvent: {}
+[5.013152] (-) TimerEvent: {}
+[5.113433] (-) TimerEvent: {}
+[5.213688] (-) TimerEvent: {}
+[5.313942] (-) TimerEvent: {}
+[5.414216] (-) TimerEvent: {}
+[5.514528] (-) TimerEvent: {}
+[5.614780] (-) TimerEvent: {}
+[5.715065] (-) TimerEvent: {}
+[5.815342] (-) TimerEvent: {}
+[5.915581] (-) TimerEvent: {}
+[6.015818] (-) TimerEvent: {}
+[6.116186] (-) TimerEvent: {}
+[6.216474] (-) TimerEvent: {}
+[6.316749] (-) TimerEvent: {}
+[6.417024] (-) TimerEvent: {}
+[6.517277] (-) TimerEvent: {}
+[6.617568] (-) TimerEvent: {}
+[6.717829] (-) TimerEvent: {}
+[6.818175] (-) TimerEvent: {}
+[6.918454] (-) TimerEvent: {}
+[7.018697] (-) TimerEvent: {}
+[7.118966] (-) TimerEvent: {}
+[7.219269] (-) TimerEvent: {}
+[7.319610] (-) TimerEvent: {}
+[7.419875] (-) TimerEvent: {}
+[7.520157] (-) TimerEvent: {}
+[7.620446] (-) TimerEvent: {}
+[7.720708] (-) TimerEvent: {}
+[7.820997] (-) TimerEvent: {}
+[7.921268] (-) TimerEvent: {}
+[7.967542] (main_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_node\x1b[0m\n'}
+[8.021380] (-) TimerEvent: {}
+[8.121650] (-) TimerEvent: {}
+[8.221895] (-) TimerEvent: {}
+[8.249979] (main_package) StdoutLine: {'line': b'[100%] Built target controller_node\n'}
+[8.259728] (main_package) CommandEnded: {'returncode': 0}
+[8.283303] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'install'}
+[8.290418] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2257', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2214,unix/kuba-laptop:/tmp/.ICE-unix/2214', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c2c6fe6e_cfdc_4e71_90fb_a1b58748ef6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.410', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.297172] (main_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.298085] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/controller_node\n'}
+[8.302943] (main_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/controller_node" to ""\n'}
+[8.303108] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_lidar_driver_node\n'}
+[8.307392] (main_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_lidar_driver_node" to ""\n'}
+[8.307694] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_motor_driver\n'}
+[8.310999] (main_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_motor_driver" to ""\n'}
+[8.311220] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_controls_driver_node\n'}
+[8.314234] (main_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/sim_controls_driver_node" to ""\n'}
+[8.314480] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package//launch\n'}
+[8.314651] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package//launch/simulation_launch.py\n'}
+[8.314762] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/package_run_dependencies/main_package\n'}
+[8.314834] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/parent_prefix_path/main_package\n'}
+[8.314972] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.sh\n'}
+[8.315070] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.dsv\n'}
+[8.315141] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.sh\n'}
+[8.315207] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.dsv\n'}
+[8.315276] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.bash\n'}
+[8.315366] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.sh\n'}
+[8.315438] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.zsh\n'}
+[8.315503] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.dsv\n'}
+[8.315564] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.dsv\n'}
+[8.315623] (main_package) StdoutLine: {'line': b'-- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/packages/main_package\n'}
+[8.315689] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig.cmake\n'}
+[8.315746] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig-version.cmake\n'}
+[8.315807] (main_package) StdoutLine: {'line': b'-- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.xml\n'}
+[8.317152] (main_package) CommandEnded: {'returncode': 0}
+[8.322251] (-) TimerEvent: {}
+[8.352854] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 0}
+[8.353451] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+ROS/Gazebo topics and topic types
+
+GAZEBO ->
+GZ /lidar (gz.msgs.LaserScan) -> 
+ROS /lidar (sensor_msgs/msg/LaserScan) -> 
+sim_lidar_controller ->  # gives the shortest distance detected
+/obstacle_distance (std_msgs/msg/Float32) ->    
+controller
+
+GAZBEO ->
+GZ /keyboard/keypress (gz.msgs.Int32) ->
+ROS /keyboard/keypress (std_msgs/msg/Int32) ->
+sim_robot_controls ->  # maps key pressed to an action
+/control_command (std_msgs/msgs/Int32) ->
+controller
+
+controller ->
+/motor_commands (std_msgs/msg/Int32) ->  # tells what action to perform (rotate, move, don't move)
+sim_motor_driver ->
+ROS /cmd_vel (geometry_msgs/msg/Twist) ->
+GZ /cmd_vel (gz.msgs.Twist) ->
+GAZEBO

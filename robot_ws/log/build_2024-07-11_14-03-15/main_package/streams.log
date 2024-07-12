@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8
+[0.118s] [ 50%] Built target controller_node
+[0.131s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o[0m
+[15.571s] [100%] [32m[1mLinking CXX executable robot_controls_node[0m
+[16.044s] [100%] Built target robot_controls_node
+[16.062s] Invoked command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8
+[16.128s] Invoking command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuba/Documents/slam-robot/robot_ws/build/main_package
+[16.140s] -- Install configuration: ""
+[16.141s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/controller_node
+[16.141s] -- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/robot_controls_node
+[16.149s] -- Set non-toolchain portion of runtime path of "/home/kuba/Documents/slam-robot/robot_ws/install/main_package/lib/main_package/robot_controls_node" to ""
+[16.149s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/package_run_dependencies/main_package
+[16.149s] -- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/parent_prefix_path/main_package
+[16.152s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.sh
+[16.152s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/ament_prefix_path.dsv
+[16.154s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.sh
+[16.155s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/environment/path.dsv
+[16.156s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.bash
+[16.156s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.sh
+[16.157s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.zsh
+[16.158s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/local_setup.dsv
+[16.160s] -- Installing: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.dsv
+[16.161s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/ament_index/resource_index/packages/main_package
+[16.162s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig.cmake
+[16.164s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/cmake/main_packageConfig-version.cmake
+[16.164s] -- Up-to-date: /home/kuba/Documents/slam-robot/robot_ws/install/main_package/share/main_package/package.xml
+[16.165s] Invoked command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kuba/Documents/slam-robot/robot_ws/build/main_package

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.000404] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.006571] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'cmake'}
+[0.007649] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'build'}
+[0.007746] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', '--', '-j8', '-l8'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2257', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2214,unix/kuba-laptop:/tmp/.ICE-unix/2214', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c2c6fe6e_cfdc_4e71_90fb_a1b58748ef6e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.410', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.062497] (main_package) StdoutLine: {'line': b'[ 25%] Built target sim_motor_driver\n'}
+[0.064808] (main_package) StdoutLine: {'line': b'[ 50%] Built target sim_controls_driver_node\n'}
+[0.067866] (main_package) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o\x1b[0m\n'}
+[0.069680] (main_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.099852] (-) TimerEvent: {}
+[0.200131] (-) TimerEvent: {}
+[0.300385] (-) TimerEvent: {}
+[0.400647] (-) TimerEvent: {}
+[0.500920] (-) TimerEvent: {}
+[0.601225] (-) TimerEvent: {}
+[0.701533] (-) TimerEvent: {}
+[0.801818] (-) TimerEvent: {}
+[0.902087] (-) TimerEvent: {}
+[1.002344] (-) TimerEvent: {}
+[1.102609] (-) TimerEvent: {}
+[1.202840] (-) TimerEvent: {}
+[1.303184] (-) TimerEvent: {}
+[1.403529] (-) TimerEvent: {}
+[1.503783] (-) TimerEvent: {}
+[1.604042] (-) TimerEvent: {}
+[1.704389] (-) TimerEvent: {}
+[1.804741] (-) TimerEvent: {}
+[1.905016] (-) TimerEvent: {}
+[2.005347] (-) TimerEvent: {}
+[2.005551] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::\x1b[01;32m\x1b[KlidarCallback\x1b[m\x1b[K(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.005698] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:34:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.005765] (main_package) StderrLine: {'line': b'   34 |         std_msgs::msg::Int32 motor_command\x1b[01;31m\x1b[K.\x1b[m\x1b[Kdata = TURN_RIGHT;\n'}
+[2.005823] (main_package) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.013509] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:36:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.013689] (main_package) StderrLine: {'line': b'   36 |         motor_publisher_->publish(\x1b[01;31m\x1b[Kmotor_command\x1b[m\x1b[K);\n'}
+[2.013749] (main_package) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.015186] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::\x1b[01;32m\x1b[KcontrolCallback\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.015292] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:45:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.015351] (main_package) StderrLine: {'line': b'   45 |         std_msgs::msg::Int32 motor_command\x1b[01;31m\x1b[K.\x1b[m\x1b[Kdata = control_command.data;\n'}
+[2.015404] (main_package) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.022136] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:48:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmotor_command\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcontrol_command\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.022495] (main_package) StderrLine: {'line': b'   48 |           motor_publisher_->publish(\x1b[01;31m\x1b[Kmotor_command\x1b[m\x1b[K);\n'}
+[2.022564] (main_package) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022621] (main_package) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kcontrol_command\x1b[m\x1b[K\n'}
+[2.022673] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:44:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontrol_command\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.022729] (main_package) StderrLine: {'line': b'   44 |  void controlCallback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Int32::SharedPtr control_command\x1b[m\x1b[K) {\n'}
+[2.022781] (main_package) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022834] (main_package) StderrLine: {'line': b'\n'}
+[2.105465] (-) TimerEvent: {}
+[2.205721] (-) TimerEvent: {}
+[2.305987] (-) TimerEvent: {}
+[2.406325] (-) TimerEvent: {}
+[2.506690] (-) TimerEvent: {}
+[2.606957] (-) TimerEvent: {}
+[2.707252] (-) TimerEvent: {}
+[2.807517] (-) TimerEvent: {}
+[2.907775] (-) TimerEvent: {}
+[3.008034] (-) TimerEvent: {}
+[3.108305] (-) TimerEvent: {}
+[3.208573] (-) TimerEvent: {}
+[3.308805] (-) TimerEvent: {}
+[3.409068] (-) TimerEvent: {}
+[3.509399] (-) TimerEvent: {}
+[3.609661] (-) TimerEvent: {}
+[3.710092] (-) TimerEvent: {}
+[3.810382] (-) TimerEvent: {}
+[3.910652] (-) TimerEvent: {}
+[4.010924] (-) TimerEvent: {}
+[4.111307] (-) TimerEvent: {}
+[4.211544] (-) TimerEvent: {}
+[4.311794] (-) TimerEvent: {}
+[4.412079] (-) TimerEvent: {}
+[4.512514] (-) TimerEvent: {}
+[4.592137] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1\n'}
+[4.592375] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller_node.dir/all] Error 2\n'}
+[4.592437] (main_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.612640] (-) TimerEvent: {}
+[4.712908] (-) TimerEvent: {}
+[4.813201] (-) TimerEvent: {}
+[4.913482] (-) TimerEvent: {}
+[5.013748] (-) TimerEvent: {}
+[5.113988] (-) TimerEvent: {}
+[5.214232] (-) TimerEvent: {}
+[5.314464] (-) TimerEvent: {}
+[5.414700] (-) TimerEvent: {}
+[5.515047] (-) TimerEvent: {}
+[5.615315] (-) TimerEvent: {}
+[5.715670] (-) TimerEvent: {}
+[5.815935] (-) TimerEvent: {}
+[5.916220] (-) TimerEvent: {}
+[6.016581] (-) TimerEvent: {}
+[6.116907] (-) TimerEvent: {}
+[6.217296] (-) TimerEvent: {}
+[6.317683] (-) TimerEvent: {}
+[6.418054] (-) TimerEvent: {}
+[6.518436] (-) TimerEvent: {}
+[6.618746] (-) TimerEvent: {}
+[6.719052] (-) TimerEvent: {}
+[6.819360] (-) TimerEvent: {}
+[6.919736] (-) TimerEvent: {}
+[7.020036] (-) TimerEvent: {}
+[7.046686] (main_package) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable sim_lidar_driver_node\x1b[0m\n'}
+[7.120161] (-) TimerEvent: {}
+[7.220510] (-) TimerEvent: {}
+[7.286467] (main_package) StdoutLine: {'line': b'[ 87%] Built target sim_lidar_driver_node\n'}
+[7.287429] (main_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.288888] (main_package) CommandEnded: {'returncode': 2}
+[7.318823] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 2}
+[7.320652] (-) TimerEvent: {}
+[7.329431] (-) EventReactorShutdown: {}

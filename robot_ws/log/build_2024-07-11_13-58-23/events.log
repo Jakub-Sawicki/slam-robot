@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.001207] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.002460] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.015624] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'cmake'}
+[0.019646] (main_package) JobProgress: {'identifier': 'main_package', 'progress': 'build'}
+[0.020820] (main_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', '--', '-j8', '-l8'], 'cwd': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kuba', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kuba', 'OLDPWD': '/home/kuba/Documents/slam-robot', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2469', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kuba/Documents/slam-robot/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kuba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kuba', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kuba-laptop:@/tmp/.ICE-unix/2303,unix/kuba-laptop:/tmp/.ICE-unix/2303', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/700c630d_ddd6_46af_84ab_21325708be49', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kuba/Documents/slam-robot/robot_ws/install/main_package:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kuba/Documents/slam-robot/robot_ws/build/main_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kuba/Documents/slam-robot/robot_ws/install/main_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099621] (-) TimerEvent: {}
+[0.164423] (main_package) StdoutLine: {'line': b'[ 50%] Built target controller_node\n'}
+[0.169481] (main_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o\x1b[0m\n'}
+[0.199750] (-) TimerEvent: {}
+[0.300201] (-) TimerEvent: {}
+[0.400643] (-) TimerEvent: {}
+[0.501149] (-) TimerEvent: {}
+[0.602341] (-) TimerEvent: {}
+[0.702809] (-) TimerEvent: {}
+[0.803421] (-) TimerEvent: {}
+[0.903814] (-) TimerEvent: {}
+[1.004150] (-) TimerEvent: {}
+[1.105219] (-) TimerEvent: {}
+[1.205906] (-) TimerEvent: {}
+[1.306325] (-) TimerEvent: {}
+[1.406720] (-) TimerEvent: {}
+[1.507096] (-) TimerEvent: {}
+[1.607482] (-) TimerEvent: {}
+[1.708039] (-) TimerEvent: {}
+[1.808431] (-) TimerEvent: {}
+[1.909009] (-) TimerEvent: {}
+[2.009559] (-) TimerEvent: {}
+[2.109930] (-) TimerEvent: {}
+[2.210394] (-) TimerEvent: {}
+[2.310909] (-) TimerEvent: {}
+[2.411292] (-) TimerEvent: {}
+[2.511701] (-) TimerEvent: {}
+[2.612167] (-) TimerEvent: {}
+[2.712495] (-) TimerEvent: {}
+[2.812888] (-) TimerEvent: {}
+[2.913315] (-) TimerEvent: {}
+[3.015329] (-) TimerEvent: {}
+[3.115671] (-) TimerEvent: {}
+[3.216026] (-) TimerEvent: {}
+[3.316366] (-) TimerEvent: {}
+[3.416837] (-) TimerEvent: {}
+[3.518114] (-) TimerEvent: {}
+[3.619992] (-) TimerEvent: {}
+[3.720821] (-) TimerEvent: {}
+[3.821527] (-) TimerEvent: {}
+[3.922006] (-) TimerEvent: {}
+[4.022451] (-) TimerEvent: {}
+[4.122834] (-) TimerEvent: {}
+[4.223303] (-) TimerEvent: {}
+[4.323679] (-) TimerEvent: {}
+[4.424100] (-) TimerEvent: {}
+[4.524607] (-) TimerEvent: {}
+[4.625013] (-) TimerEvent: {}
+[4.725651] (-) TimerEvent: {}
+[4.826026] (-) TimerEvent: {}
+[4.835645] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:9\x1b[m\x1b[K:\n'}
+[4.836455] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimControlsNode::\x1b[01;32m\x1b[KcallbackFunction\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.836679] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:4:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.836789] (main_package) StderrLine: {'line': b'    4 | #define FORWARD_KEY \x1b[01;31m\x1b[K1\x1b[m\x1b[K\n'}
+[4.836962] (main_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.837104] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:36:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KFORWARD_KEY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.837290] (main_package) StderrLine: {'line': b'   36 |             output_msg = \x1b[01;36m\x1b[KFORWARD_KEY\x1b[m\x1b[K;\n'}
+[4.837454] (main_package) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.837606] (main_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp:7\x1b[m\x1b[K,\n'}
+[4.837749] (main_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:7\x1b[m\x1b[K:\n'}
+[4.837909] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std_msgs::msg::Int32_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.838068] (main_package) StderrLine: {'line': b'   35 | struct \x1b[01;36m\x1b[KInt32_\x1b[m\x1b[K\n'}
+[4.838195] (main_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.838301] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.838429] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.838584] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.838715] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:5:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.838855] (main_package) StderrLine: {'line': b'    5 | #define REVERSE_KEY \x1b[01;31m\x1b[K2\x1b[m\x1b[K\n'}
+[4.838994] (main_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.839141] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:40:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KREVERSE_KEY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.839264] (main_package) StderrLine: {'line': b'   40 |             output_msg = \x1b[01;36m\x1b[KREVERSE_KEY\x1b[m\x1b[K;\n'}
+[4.839398] (main_package) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.839504] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std_msgs::msg::Int32_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.839664] (main_package) StderrLine: {'line': b'   35 | struct \x1b[01;36m\x1b[KInt32_\x1b[m\x1b[K\n'}
+[4.839944] (main_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.840101] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.840240] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.840383] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.840487] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:6:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.840603] (main_package) StderrLine: {'line': b'    6 | #define RIGHT_KEY \x1b[01;31m\x1b[K3\x1b[m\x1b[K\n'}
+[4.840714] (main_package) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.841002] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:44:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRIGHT_KEY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.841161] (main_package) StderrLine: {'line': b'   44 |             output_msg = \x1b[01;36m\x1b[KRIGHT_KEY\x1b[m\x1b[K;\n'}
+[4.841287] (main_package) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.841410] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std_msgs::msg::Int32_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.841559] (main_package) StderrLine: {'line': b'   35 | struct \x1b[01;36m\x1b[KInt32_\x1b[m\x1b[K\n'}
+[4.841687] (main_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.841825] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.841976] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.842140] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.842277] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:7:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.842423] (main_package) StderrLine: {'line': b'    7 | #define LEFT_KEY \x1b[01;31m\x1b[K4\x1b[m\x1b[K\n'}
+[4.842561] (main_package) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.842682] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:48:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KLEFT_KEY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.842820] (main_package) StderrLine: {'line': b'   48 |             output_msg = \x1b[01;36m\x1b[KLEFT_KEY\x1b[m\x1b[K;\n'}
+[4.842977] (main_package) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.843121] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std_msgs::msg::Int32_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843277] (main_package) StderrLine: {'line': b'   35 | struct \x1b[01;36m\x1b[KInt32_\x1b[m\x1b[K\n'}
+[4.843413] (main_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.843540] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Int32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843665] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std_msgs::msg::Int32_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.843823] (main_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Int32_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.926149] (-) TimerEvent: {}
+[5.026565] (-) TimerEvent: {}
+[5.126951] (-) TimerEvent: {}
+[5.227447] (-) TimerEvent: {}
+[5.328050] (-) TimerEvent: {}
+[5.428616] (-) TimerEvent: {}
+[5.529044] (-) TimerEvent: {}
+[5.629379] (-) TimerEvent: {}
+[5.729805] (-) TimerEvent: {}
+[5.830242] (-) TimerEvent: {}
+[5.930739] (-) TimerEvent: {}
+[6.031120] (-) TimerEvent: {}
+[6.131768] (-) TimerEvent: {}
+[6.232132] (-) TimerEvent: {}
+[6.332473] (-) TimerEvent: {}
+[6.433885] (-) TimerEvent: {}
+[6.534268] (-) TimerEvent: {}
+[6.635552] (-) TimerEvent: {}
+[6.735930] (-) TimerEvent: {}
+[6.836381] (-) TimerEvent: {}
+[6.936756] (-) TimerEvent: {}
+[7.037130] (-) TimerEvent: {}
+[7.137656] (-) TimerEvent: {}
+[7.238062] (-) TimerEvent: {}
+[7.338443] (-) TimerEvent: {}
+[7.438787] (-) TimerEvent: {}
+[7.539168] (-) TimerEvent: {}
+[7.639591] (-) TimerEvent: {}
+[7.740290] (-) TimerEvent: {}
+[7.840896] (-) TimerEvent: {}
+[7.941271] (-) TimerEvent: {}
+[8.041800] (-) TimerEvent: {}
+[8.142244] (-) TimerEvent: {}
+[8.242867] (-) TimerEvent: {}
+[8.343245] (-) TimerEvent: {}
+[8.443624] (-) TimerEvent: {}
+[8.544010] (-) TimerEvent: {}
+[8.644369] (-) TimerEvent: {}
+[8.745727] (-) TimerEvent: {}
+[8.846145] (-) TimerEvent: {}
+[8.946623] (-) TimerEvent: {}
+[9.047347] (-) TimerEvent: {}
+[9.123866] (main_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_controls_node.dir/build.make:76: CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o] Error 1\n'}
+[9.124285] (main_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_controls_node.dir/all] Error 2\n'}
+[9.124518] (main_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.127163] (main_package) CommandEnded: {'returncode': 2}
+[9.147509] (-) TimerEvent: {}
+[9.188398] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 2}
+[9.199650] (-) EventReactorShutdown: {}

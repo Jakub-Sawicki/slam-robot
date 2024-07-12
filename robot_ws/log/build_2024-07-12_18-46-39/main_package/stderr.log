@@ -1,0 +1,23 @@
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KlidarCallback[m[K(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:34:43:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   34 |         std_msgs::msg::Int32 motor_command[01;31m[K.[m[Kdata = TURN_RIGHT;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:36:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_command[m[K’ was not declared in this scope
+   36 |         motor_publisher_->publish([01;31m[Kmotor_command[m[K);
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KcontrolCallback[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:45:43:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K.[m[K’ token
+   45 |         std_msgs::msg::Int32 motor_command[01;31m[K.[m[Kdata = control_command.data;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:48:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor_command[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontrol_command[m[K’?
+   48 |           motor_publisher_->publish([01;31m[Kmotor_command[m[K);
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                     [32m[Kcontrol_command[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontrol_command[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |  void controlCallback([01;35m[Kconst std_msgs::msg::Int32::SharedPtr control_command[m[K) {
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

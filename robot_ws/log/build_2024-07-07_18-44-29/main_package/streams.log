@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/main_node.dir/src/main.cpp.o[0m
+[0.803s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K cb[m[K(const gz::msgs::LaserScan&)[m[K’:
+[0.803s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[K_msg[m[K’ was not declared in this scope; did you mean ‘[01m[K_msgs[m[K’?
+[0.803s]    15 |         if ([01;31m[K_msg[m[K.ranges(i) < 1.0) {
+[0.803s]       |             [01;31m[K^~~~[m[K
+[0.804s]       |             [32m[K_msgs[m[K
+[0.804s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[0.804s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:32:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.804s]    32 | int main([01;35m[Kint argc[m[K, char **argv) {
+[0.804s]       |          [01;35m[K~~~~^~~~[m[K
+[0.804s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/main.cpp:32:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.804s]    32 | int main(int argc, [01;35m[Kchar **argv[m[K) {
+[0.804s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[0.976s] gmake[2]: *** [CMakeFiles/main_node.dir/build.make:76: CMakeFiles/main_node.dir/src/main.cpp.o] Error 1
+[0.976s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main_node.dir/all] Error 2
+[0.976s] gmake: *** [Makefile:146: all] Error 2
+[0.977s] Invoked command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8

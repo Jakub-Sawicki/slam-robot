@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8
+[0.162s] [ 50%] Built target controller_node
+[0.167s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o[0m
+[4.834s] In file included from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:9[m[K:
+[4.834s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:[m[K In member function ‘[01m[Kvoid SimControlsNode::[01;32m[KcallbackFunction[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.834s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:4:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[4.834s]     4 | #define FORWARD_KEY [01;31m[K1[m[K
+[4.834s]       |                     [01;31m[K^[m[K
+[4.834s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:36:26:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KFORWARD_KEY[m[K’
+[4.835s]    36 |             output_msg = [01;36m[KFORWARD_KEY[m[K;
+[4.835s]       |                          [01;36m[K^~~~~~~~~~~[m[K
+[4.835s] In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp:7[m[K,
+[4.835s]                  from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:7[m[K:
+[4.835s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(const std_msgs::msg::Int32_<std::allocator<void> >&)[m[K’
+[4.835s]    35 | struct [01;36m[KInt32_[m[K
+[4.836s]       |        [01;36m[K^~~~~~[m[K
+[4.836s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >&[m[K’
+[4.836s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(std_msgs::msg::Int32_<std::allocator<void> >&&)[m[K’
+[4.836s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >&&[m[K’
+[4.836s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:5:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[4.836s]     5 | #define REVERSE_KEY [01;31m[K2[m[K
+[4.836s]       |                     [01;31m[K^[m[K
+[4.836s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:40:26:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KREVERSE_KEY[m[K’
+[4.837s]    40 |             output_msg = [01;36m[KREVERSE_KEY[m[K;
+[4.837s]       |                          [01;36m[K^~~~~~~~~~~[m[K
+[4.837s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(const std_msgs::msg::Int32_<std::allocator<void> >&)[m[K’
+[4.837s]    35 | struct [01;36m[KInt32_[m[K
+[4.837s]       |        [01;36m[K^~~~~~[m[K
+[4.837s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >&[m[K’
+[4.838s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(std_msgs::msg::Int32_<std::allocator<void> >&&)[m[K’
+[4.838s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >&&[m[K’
+[4.838s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:6:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[4.838s]     6 | #define RIGHT_KEY [01;31m[K3[m[K
+[4.838s]       |                   [01;31m[K^[m[K
+[4.838s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:44:26:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRIGHT_KEY[m[K’
+[4.839s]    44 |             output_msg = [01;36m[KRIGHT_KEY[m[K;
+[4.839s]       |                          [01;36m[K^~~~~~~~~[m[K
+[4.839s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(const std_msgs::msg::Int32_<std::allocator<void> >&)[m[K’
+[4.839s]    35 | struct [01;36m[KInt32_[m[K
+[4.839s]       |        [01;36m[K^~~~~~[m[K
+[4.839s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >&[m[K’
+[4.839s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(std_msgs::msg::Int32_<std::allocator<void> >&&)[m[K’
+[4.839s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >&&[m[K’
+[4.840s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/key_id_config.h:7:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+[4.840s]     7 | #define LEFT_KEY [01;31m[K4[m[K
+[4.840s]       |                  [01;31m[K^[m[K
+[4.840s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:48:26:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KLEFT_KEY[m[K’
+[4.840s]    48 |             output_msg = [01;36m[KLEFT_KEY[m[K;
+[4.840s]       |                          [01;36m[K^~~~~~~~[m[K
+[4.840s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(const std_msgs::msg::Int32_<std::allocator<void> >&)[m[K’
+[4.841s]    35 | struct [01;36m[KInt32_[m[K
+[4.841s]       |        [01;36m[K^~~~~~[m[K
+[4.841s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >&[m[K’
+[4.841s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std_msgs::msg::Int32_<std::allocator<void> >& std_msgs::msg::Int32_<std::allocator<void> >::[01;32m[Koperator=[m[K(std_msgs::msg::Int32_<std::allocator<void> >&&)[m[K’
+[4.841s] [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:35:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >&&[m[K’
+[9.121s] gmake[2]: *** [CMakeFiles/robot_controls_node.dir/build.make:76: CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o] Error 1
+[9.122s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_controls_node.dir/all] Error 2
+[9.122s] gmake: *** [Makefile:146: all] Error 2
+[9.125s] Invoked command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8

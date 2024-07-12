@@ -1,0 +1,6 @@
+[ 25%] Built target sim_controls_driver_node
+[ 37%] [32mBuilding CXX object CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sim_motor_driver.dir/src/sim_motor_driver.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable sim_motor_driver[0m
+[ 75%] Built target sim_motor_driver

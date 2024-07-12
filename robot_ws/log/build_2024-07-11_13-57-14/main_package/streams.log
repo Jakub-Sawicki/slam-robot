@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8
+[0.109s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o[0m
+[0.118s] [ 75%] Built target controller_node
+[0.499s] [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_robot_controls.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kinclude/key_id_config.h: No such file or directory
+[0.500s]     9 | #include [01;31m[K"include/key_id_config.h"[m[K
+[0.500s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.500s] compilation terminated.
+[0.511s] gmake[2]: *** [CMakeFiles/robot_controls_node.dir/build.make:76: CMakeFiles/robot_controls_node.dir/src/sim_robot_controls.cpp.o] Error 1
+[0.513s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_controls_node.dir/all] Error 2
+[0.513s] gmake: *** [Makefile:146: all] Error 2
+[0.517s] Invoked command in '/home/kuba/Documents/slam-robot/robot_ws/build/main_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kuba/Documents/slam-robot/robot_ws/build/main_package -- -j8 -l8

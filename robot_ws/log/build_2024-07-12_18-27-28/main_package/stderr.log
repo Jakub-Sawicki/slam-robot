@@ -1,0 +1,198 @@
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_lidar_driver.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/laserscan.hpp: No such file or directory
+    7 | #include [01;31m[K"sensor_msgs/laserscan.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_lidar_driver_node.dir/build.make:76: CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/sim_lidar_driver_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   22 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr subscription_;
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   22 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   22 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                            [32m[Krmw_subscription_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   23 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   23 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:47:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint SimMotorDriver::SharedPtr[m[K’
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:22:50:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint SimMotorDriver::SharedPtr[m[K’
+   22 |     rclcpp::Subscription<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K subscription_;
+      |                                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   24 |     rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>::SharedPtr lidar_subscription_;
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan[01;31m[K>[m[K::SharedPtr lidar_subscription_;
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::[01;31m[KSharedPtr[m[K lidar_subscription_;
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+      |                                                                 [32m[K;[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:23:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   23 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                                         [32m[Krmw_publisher_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:66:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_subscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   24 | clcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr [01;31m[Klidar_subscription_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                             [32m[Krmw_subscription_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:[m[K In constructor ‘[01m[KSimMotorDriver::[01;32m[KSimMotorDriver[m[K()[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   15 |       [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In constructor ‘[01m[KControllerNode::[01;32m[KControllerNode[m[K()[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klidar_subscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcontrol_subscription_[m[K’?
+   14 |         [01;31m[Klidar_subscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcontrol_subscription_[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   14 |         lidar_subscription_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::LaserScan>(
+      |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   14 |         lidar_subscription_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::LaserScan>[m[K(
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:18:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   18 |       [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krmw_publisher_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KControllerNode::create_subscription<<expression error> >(const char [18], int, std::_Bind_helper<false, void (ControllerNode::*)(std::shared_ptr<std_msgs::msg::Float32_<std::allocator<void> > >), ControllerNode*, const std::_Placeholder<1>&>::type)[m[K’
+   14 | subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   15 | [01;31m[Kbstacle_distance", 10, std::bind(&ControllerNode::lidarCallback, this, std::placeholders::_1))[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  221 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:14:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   14 | subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::LaserScan>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   15 | [01;31m[Kbstacle_distance", 10, std::bind(&ControllerNode::lidarCallback, this, std::placeholders::_1))[m[K;
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:5[m[K:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:[m[K In member function ‘[01m[Kvoid SimMotorDriver::[01;32m[KcallbackFunction[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:40:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   40 |         RCLCPP_INFO(this->get_logger(), "Received: '%s'", [01;31m[Kmsg[m[K->data.c_str());
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:40:59:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+   34 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/int32.hpp:7[m[K,
+                 from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:7[m[K:
+[01m[K/opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/int32__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:44:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   44 |         switch (motor_commands.[01;31m[Kdata[m[K) {
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:59:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   59 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_motor_driver.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   61 |         [01;31m[Kpublisher_[m[K->publish(output_msg);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KlidarCallback[m[K(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstiacle_distance[m[K’ was not declared in this scope; did you mean ‘[01m[Kobstacle_distance[m[K’?
+   32 |       if ([01;31m[Kobstiacle_distance[m[K.data <= min_obstacle_distance) {
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[Kobstacle_distance[m[K
+In file included from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:9[m[K:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/config.h:6:20:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} requested
+    6 | #define TURN_RIGHT [01;31m[K2[m[K
+      |                    [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:34:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTURN_RIGHT[m[K’
+   34 |         std_msgs::msg::Int32 motor_command = [01;36m[KTURN_RIGHT[m[K;
+      |                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:31:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobstacle_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |  void lidarCallback([01;35m[Kconst std_msgs::msg::Float32::SharedPtr obstacle_distance[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KcontrolCallback[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   45 |         std_msgs::msg::Int32 motor_command = control_command.[01;31m[Kdata[m[K;
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kavoiding[m[K’ was not declared in this scope
+   47 |         if ([01;31m[Kavoiding[m[K obstacle == false) {
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kobstacle[m[K’
+   47 |         if (avoiding [01;31m[Kobstacle[m[K == false) {
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:47:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   47 |         if [01;36m[K([m[Kavoiding obstacle == false) {
+      |            [01;36m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   49 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/sim_motor_driver.dir/build.make:76: CMakeFiles/sim_motor_driver.dir/src/sim_motor_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/sim_motor_driver.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

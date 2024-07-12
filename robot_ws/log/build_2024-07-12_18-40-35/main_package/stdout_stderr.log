@@ -1,0 +1,39 @@
+[ 25%] Built target sim_controls_driver_node
+[ 37%] [32mBuilding CXX object CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sim_motor_driver.dir/src/sim_motor_driver.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KlidarCallback[m[K(std_msgs::msg::Float32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstiacle_distance[m[K’ was not declared in this scope; did you mean ‘[01m[Kobstacle_distance[m[K’?
+   32 |       if ([01;31m[Kobstiacle_distance[m[K.data <= min_obstacle_distance) {
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |           [32m[Kobstacle_distance[m[K
+In file included from [01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:9[m[K:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/../include/config.h:6:20:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kint[m[K’ to non-scalar type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} requested
+    6 | #define TURN_RIGHT [01;31m[K2[m[K
+      |                    [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:34:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KTURN_RIGHT[m[K’
+   34 |         std_msgs::msg::Int32 motor_command = [01;36m[KTURN_RIGHT[m[K;
+      |                                              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:31:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kobstacle_distance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |  void lidarCallback([01;35m[Kconst std_msgs::msg::Float32::SharedPtr obstacle_distance[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::[01;32m[KcontrolCallback[m[K(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:45:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   45 |         std_msgs::msg::Int32 motor_command = control_command.[01;31m[Kdata[m[K;
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:49:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   49 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid SimLidarDriverNode::[01;32m[KcallbackFunction[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/sim_lidar_driver.cpp:30:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<sensor_msgs::msg::LaserScan_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   30 |             if ((range > lidar_msg->range_min || range < lidar_msg->range_max) && range < lidar_msg->[01;31m[Kdata[m[K) {
+      |                                                                                                      [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_lidar_driver_node.dir/build.make:76: CMakeFiles/sim_lidar_driver_node.dir/src/sim_lidar_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/sim_lidar_driver_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller_node.dir/all] Error 2
+[ 75%] [32m[1mLinking CXX executable sim_motor_driver[0m
+[ 75%] Built target sim_motor_driver
+gmake: *** [Makefile:146: all] Error 2

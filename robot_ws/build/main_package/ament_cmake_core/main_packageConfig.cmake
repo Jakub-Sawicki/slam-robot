@@ -16,7 +16,7 @@ set(_main_package_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT main_package_FIND_QUIETLY)
-  message(STATUS "Found main_package: 0.0.0 (${main_package_DIR})")
+  message(STATUS "Found main_package: 0.0.1 (${main_package_DIR})")
 endif()
 
 # warn when using a deprecated package
@@ -27,7 +27,7 @@ if(NOT "" STREQUAL "")
     set(_msg "${_msg} ()")
   endif()
   # optionally quiet the deprecation message
-  if(NOT ${main_package_DEPRECATED_QUIET})
+  if(NOT main_package_DEPRECATED_QUIET)
     message(DEPRECATION "${_msg}")
   endif()
 endif()

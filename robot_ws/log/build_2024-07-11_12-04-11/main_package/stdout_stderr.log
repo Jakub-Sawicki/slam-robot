@@ -1,0 +1,18 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |     rclcpp::Subscription<sensor_msgs::msg::[01;31m[KLaserScan[m[K:>::SharedPtr subscription_;
+      |                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:24:53:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:>[m[K’ token
+   24 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan[01;31m[K:>[m[K::SharedPtr subscription_;
+      |                                                     [01;31m[K^~[m[K
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:[m[K In constructor ‘[01m[KControllerNode::[01;32m[KControllerNode[m[K()[m[K’:
+[01m[K/home/kuba/Documents/slam-robot/robot_ws/main_package/src/controller.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   16 |         [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/controller_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
